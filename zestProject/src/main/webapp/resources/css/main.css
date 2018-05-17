@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* 추천수업  */
+.class_cont {
+	
+}
+
+.class_cont .main_cont {
+	cursor: pointer;
+	border: 1px solid #ccc;
+	padding: 20px;
+	height: 400px;
+	width: 48%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.class_cont .sub_cont {
+	height: 400px;
+	width: 52%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.class_cont .sub_cont .sub {
+	box-sizing: border-box;
+	font-weight: bold;
+	height: 133.33px;
+	cursor: pointer;
+	border-left: none;
+	padding: 15px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+/* 광고페이지 */
+.ad {
+	border: 1px solid !important;
+	width: 1110px;
+	height: 105px;
+	/* background-image: url(/Content/Images/ad.png); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* 원데이 페이지 */
+.oneday {
+	border: 1px solid !important;
+	margin-top: 25px;
+	height: 450px;
+}
+
+.oneday .onday_head {
+	height: 76px;
+}
+
+.oneday #onedayIndicators {
+	height: 450px;
+}
+
+.oneday #onedayIndicators .carousel-inner {
+	height: 450px;
+}
+
+.oneday #onedayIndicators .carousel-inner .carousel-item {
+	height: 450px;
+}
+
+.oneday #onedayIndicators .carousel-indicators li {
+	position: relative;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 30px;
+	height: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #493645;
+}
+
+.oneday #onedayIndicators .carousel-indicators .active {
+	background-color: #007bff;
+}
+
+.oneday #onedayIndicators .carousel-inner .carousel-item img {
+	height: 700px;
+	margin-top: -175px;
+}
+
+.oneday #onedayIndicators .carousel-inner .carousel-item .oneday_cont {
+	height: 355px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: 333px;
+    float: left;
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-right: 25px;   
+    margin-top: 10px;
+}
+.oneday #onedayIndicators .carousel-inner .carousel-item .oneday_cont .image{
+	border: 1px solid #ccc;
+	height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
