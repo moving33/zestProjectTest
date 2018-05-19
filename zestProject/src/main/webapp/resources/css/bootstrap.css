@@ -599,8 +599,6 @@ pre code {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
 }
 
 .col {
@@ -611,7 +609,6 @@ pre code {
 	max-width: 100%;
 	background-color: #f0f0f0;
 	align-self: center;
-	margin-right: inherit;
 	min-height: 50px;
 	padding-top: 1.5%;
 	padding-bottom: 1%;
@@ -8728,7 +8725,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* 혜진 수정*/
 .flyout-search {
 	width: 300px;
-	height: 40px;
+	height: 45px;
 	margin-top: auto;
 }
 /*# sourceMappingURL=bootstrap.css.map */
